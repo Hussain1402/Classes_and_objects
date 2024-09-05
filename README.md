@@ -20,11 +20,10 @@ class student
 {
     public:
     string name;
-    int age;
-    string branch;          
+    float age;
+    string branch;
     float result;
-    int year;
-    int prn;
+    string year;
 };
 ```
 ## Objects
@@ -49,24 +48,25 @@ class student
 {
     public:
     string name;
-    int age;
-    string branch;          
+    float age;
+    string branch;
     float result;
-    int year;
-    int prn;
+    string year;
 };
 int main()
 {
     student s1,s2;
 
-    cout<<"1st student: "<<endl;
-    s1.name = "Soham";
-    s1.age = 19;
-    s1.branch = "ENTC";
-    s1.prn = 065;
-    s1.result = 7.8;
-    s1.year = 2;
-    cout<<s1.name<<endl<<s1.age<<endl<<s1.branch<<endl<<s1.prn<<endl<<s1.result<<endl<<s1.year<<endl;
+    s1.name="Hussain Tayyebi";
+    s1.age=19;
+    s1.branch="E&TC";
+    s1.result=8.83;
+    s1.year="Second";
+    cout<<"Name: "<<s1.name<<endl;
+    cout<<"Age: "<<s1.age<<endl;
+    cout<<"Branch: "<<s1.branch<<endl;
+    cout<<"GPA: "<<s1.result<<endl;
+    cout<<"Year: "<<s1.year<<endl;
 }
 ```
 # Algorithms
@@ -75,7 +75,7 @@ int main()
 2. Class Definition:   
 Define a class named student with the following public data members:   
     - string name: To store the student's name.
-    - int age: To store the student's age.
+    - float age: To store the student's age.
     - string branch: To store the student's branch of study.   
     - float result: To store the student's result.   
     - int year: To store the student's current academic year.   
@@ -86,25 +86,20 @@ Define a class named student with the following public data members:
 Declare two objects s1 and s2 of the class student.
 4. Input and Output for First Student (s1):   
 Assign the following values to the object s1:   
-    - name = "Soham"   
-    - age = 19   
-    - branch = "ENTC"   
-    - prn = 065   
-    - result = 7.8   
-    - year = 2   
-    - Display the values stored in s1:   
-    - Print the name, age, branch, prn, result, and year.   
+    - Name: Hussain Tayyebi
+    - Age: 19
+    - Branch: E&TC
+    - GPA: 8.83
+    - Year: Second   
 
 5. Input and Output for Second Student (s2):   
 Assign the following values to the object s2:
-    - name = "Hussain"   
-    - age = 19   
-    - branch = "ENTC"   
-    - prn = 060   
-    - result = 8.83   
-    - year = 2   
-    - Display the values stored in s2:   
-    - Print the name, age, branch, prn, result, and year.
+    - Friend's information: 
+    - Name: Soham Jade
+    - Age: 19
+    - Branch: E&TC
+    - GPA: 7.86
+    - Year: Second
 
 7. End
 
@@ -120,5 +115,5 @@ Assign the following values to the object s2:
 5. Method Invocation:   
     - Call the myMethod() function using the object s1.   
 6. Output:   
-    - The program prints the message "I am studying in 2nd year.".   
+    - The program prints the message "I am studying in 2nd year!".   
 7. End
